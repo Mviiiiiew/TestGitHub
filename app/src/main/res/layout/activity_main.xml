@@ -13,8 +13,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+
     <Button
+        android:id="@+id/btnFirst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="jipjoihjiojijho"/>
+        android:text="first"/>
+
+    <Button
+        android:id="@+id/btnSecond"
+        android:layout_below="@+id/btnFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second"/>
+
+    <Button
+        android:layout_below="@+id/btnSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third"/>
+
 </RelativeLayout>
